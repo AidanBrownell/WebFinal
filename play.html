@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connect-4: Play</title>
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="maincontent">
+    <div id="stuff">
+        <!--<label for="command">Command: </label>
+        //<input type="text" id="command">-->
+        <button id="start">Start Game</button>
+        <br>
+        <br><br>
+        <ul id="activeGames">
+            <li style="font-weight: bold;">Active Games:</li>
+        </ul>
+        <label for="command">Game Tag: </label>
+        <input type="text" id="gameTag">
+        <button id="joinGame">Join Game</button>
+    </div>
+
+    <div id="boardID">Board ID: Not Joined</div>
+
+    <div id="board">
+        <!-- Board elements will be populated here -->
+    </div>
+</div>
+
+<div id="playStats">
+
+</div>
+
+<div>
+    <a href="./index.html">Play Single Screen</a>
+</div>
+
+<script src="./node_modules/socket.io/client-dist/socket.io.js"></script>
+<script src="./app.js"></script>
+
+</body>
+</html>

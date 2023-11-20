@@ -1,0 +1,46 @@
+
+        #maincontent {
+            text-align: center;
+            margin-top: 40px;
+
+
+        }
+        .cell {
+            background: aliceblue;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            margin: 1px;
+            overflow: hidden;
+            text-align: center;
+            line-height: 35px;
+            font-weight: bold;
+            border: solid;
+        }
+
+        #playStats {
+            text-align: center;
+            padding: 10px;
+        }
+
+        
+
+
+
+        .cellB {
+            background: white;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            margin: 1px;
+            overflow: hidden;
+            text-align: center;
+            line-height: 35px;
+            font-weight: bold;
+            border: solid;
+            border-color: white;
+        }
+    
+        ul {
+            list-style-type: none;
+          }
